@@ -15,9 +15,7 @@ Setting up
 
 	  });
 
-Filename is any String indicating name of the file to create (Mandatory).
-Filesize is the size of the file in Megabyte (Optional, defaults to 5 Megabyte)
-File will not actually be created until write() is called.
+`filename` is any String indicating name of the file to create (Mandatory). `filesize` is the size of the file in Megabyte (Optional, defaults to 5 Megabyte). File will not actually be created until `write()` is called.  
 
 Writing
 =======
@@ -35,7 +33,7 @@ Reading
 		console.log(this.result);
 	  });
 
-Call `read()` with a callback. Content of file will be available within this.result.
+Call `read()` with a callback. Content of file will be available within `this.result`.
 
 Deleting
 ========
